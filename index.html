@@ -34,12 +34,28 @@
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical; 
         }
+        .slider-container {
+            max-width: 475px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
     </style>
 </div>
 <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
   <div class="container-5 w-container">
       <nav role="navigation" class="w-nav-menu">
-          <a href="#section-work" class="navigation-item w-nav-link w--current" style="max-width: 1040px;">Project</a>
+          <a href="#section-work" class="navigation-item w-nav-link w--current" style="max-width: 1040px;">Works</a>
           <a href="#section-about" class="navigation-item w-nav-link" style="max-width: 1040px;">About</a>
           <a href="#section-contact" class="navigation-item w-nav-link" style="max-width: 1040px;">Contact</a>
       </nav>
@@ -59,7 +75,7 @@
       <a href="/home/kv/Desktop/Portfolio/public/Yashas_KV.pdf" download="Yashas_KV.pdf" target="_blank" class="button w-button button-hero" data-ix="new-interaction" style="transition: color 0.4s ease 0s, background-color 0.4s ease 0s, box-shadow 0.4s ease 0s;">Download Resume</a>
     </div>
     <div class="div-image-r">
-      <img src="public/IMG_0722-fotor-20240105155952.jpg" 
+      <img src="public/portfolio_img.jpg  " 
            alt="" class="image-placement rounded-image">
     </div>
   </div>
@@ -85,53 +101,227 @@
   <div class="section-homepage w-container">
     <div class="div-card-list">
       <!-- Project Card 1 -->
-      <a href="" target="_blank" class="div-project-card full fill-grindr w-inline-block">
+      <a href="#" class="div-project-card full fill-grindr w-inline-block">
         <div class="div-project-content">
-          <h3 class="h3 selected-work">Biogas Management System</h3>
-          <p class="body-paragraph card truncate">The world's largest dating and networking app for Gay, Bi, Trans, and Queer people.</p>
-          <div class="div-view-project">
-            <div class="body-paragraph high-emphasis selected-work fa-solid"></div>
-            <div class="body-paragraph high-emphasis selected-work">Password Protected</div>
-            <div class="body-paragraph high-emphasis selected-work fa-light"></div>
+          <h3 class="h3 selected-work">RVCE, Centre Of Excellence(IOT)</h3>
+          <h4 class="h4 selected-work card">Biogas Management System</h4>
+          <ul class="body-paragraph card">
+            <li>Developed placement website for Surana College using J2EE and MySQL.</li>
+            <li>Automated the placement process.</li>
+            <li>Effectively managed students, co-ordinators, and job-listings.</li>
+          </ul>
+                  </div>
+        <div class="slider-container">
+          <div class="slider">
+              <div class="slide image-slider"><img src="public/project images/Screenshot from 2024-01-10 01-24-58.png" alt="Image 1" width="100%"></div>
+              <div class="slide"><img src="public/project images/IMG_4554.jpg" alt="Image 2" width = "90%" ></div>
+              <div class="slide"><img src="public/project images/IMG_4555.jpg" alt="Image 3"></div>
           </div>
-        </div>
-        <img src="https://uploads-ssl.webflow.com/5ed7a75e8407992a7a52ad83/63c3083ecff8181269f30160_thumbnailGrindr-Placeholder.svg" height="273" width="2500" alt="" class="image-project condensed">
-      </a>
+      </div>
+         </a>
 
       <!-- Project Card 2 -->
-      <a href="https://tinyurl.com/mu9tv9mk" target="_blank" class="div-project-card half card-m-left fill-bb hidden w-inline-block">
-        <div class="div-project-content">
-          <h3 class="h3 selected-work">Grindr</h3>
-          <p class="body-paragraph card truncate">The world's largest dating and networking app for Gay, Bi, Trans, and Queer people.</p>
-          <div class="div-view-project">
-            <div class="body-paragraph high-emphasis selected-work fa-solid"><br></div>
-            <div class="body-paragraph high-emphasis selected-work">Password Protected</div>
-            <div class="body-paragraph high-emphasis selected-work fa-light"></div>
-          </div>
-        </div>
-        <img src="https://uploads-ssl.webflow.com/5ed7a75e8407992a7a52ad83/63c3083ecff8181269f30160_thumbnailGrindr-Placeholder.svg" width="691" height="329" alt="" class="image-project half">
-      </a>
-
-      <!-- Project Card 3 -->
       <a href="#" class="div-project-card half card-m-left fill-commentsold w-inline-block">
         <div class="div-project-content">
-          <h3 class="h3 selected-work">CommentSold</h3>
-          <p class="body-paragraph card truncate">Increase customer spending, grow your small business, and sync all your inventory with an engaging mobile app. Sell with live video, engage customers with automated push notifications, and make shopping mobile friendly. No coding required!<br></p>
-          <div class="div-view-project">
+          <h3 class="h3 selected-work">Surana Placement Cell</h3>
+          <p class="body-paragraph card ">Developed placement website for Surana College using J2EE and MySQl,automating the placement process, effectively managing students ,co-ordinators and job-listings<br></p>
+        </div>
+        <div class="slider-container2">
+          <div class="slider">
+              <div class="slide"><img src="public/project images/Screenshot from 2024-01-10 01-24-58.png" alt="Image 1" width="100%"></div>
+              <div class="slide"><img src="public/project images/IMG_4554.jpg" alt="Image 2" width = "90%" ></div>
+              <div class="slide"><img src="public/project images/IMG_4555.jpg" alt="Image 3"></div>
+          </div>
+      </div>     
+     </a>
+            <!-- Project Card 3 -->
+      <a href="#" class="div-project-card half card-m-right fill-commentsold w-inline-block">
+        <div class="div-project-content">
+          <h3 class="h3 selected-work">Cloud-Pi Platform</h3>
+          <ul class="body-paragraph card">
+            <li>Developed placement website for Surana College using J2EE and MySQL.</li>
+            <li>Automated the placement process.</li>
+            <li>Effectively managed students, co-ordinators, and job-listings.</li>
+          </ul>
+            <div class="div-view-project">
             <div class="body-paragraph high-emphasis selected-work fa-solid"></div>
-            <div class="body-paragraph high-emphasis selected-work">Coming Soon</div>
+            <div class="body-paragraph high-emphasis selected-work">Ongoing</div>
             <div class="body-paragraph high-emphasis selected-work fa-light"></div>
           </div>
         </div>
-        <img src="https://uploads-ssl.webflow.com/5ed7a75e8407992a7a52ad83/63c30494f3d9c567ad38348d_cs-pill-logo-2022.webp" width="692" height="329" alt="" class="image-project half">
       </a>
-
-      <!-- Continue adding more project cards as needed -->
-
-    </div>
+   </div>
   </div>
 </div>
+<div id = "section-about" class="content-section">
+  <div class="section-header w-container">
+    <div class="div-section-header">
+      <div class="section-header-column w-row">
+        <div class="column-svg-n-title w-col w-col-9">
+          <h1 class="heading-5">🏋🏽</h1>
+          <h1 class="h2">About</h1>
+        </div>
+        <div class="column-view-more w-col w-col-3">
+          <a href="https://www.linkedin.com/in/yashas-kv-96372a171/" target="_blank" class="link-block w-inline-block">
+            <div class="section-header-link">Linkedin <img src="public/linkedin_logo.png" alt="Linkedin Logo" class="linkedin-logo">
+            </div>
+          </a>
+          <div class="section-header-link icon"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-homepage w-container">
+    <div class="div-text-l j-top">
+      <h4 class="heading-6">My Story</h4>
+      <p class="body-paragraph">
+        I have been a creative leader in the digital entertainment and software industry since 2011. During this time, I have had the opportunity to work with some amazing people on several cutting-edge projects. Projects I’ve worked on include an aviation simulation game (NFA) to conceptual products for multi-million dollar corporations (Amazon, KBB, and more).<br><br>Along this journey, I have worn several hats ranging, including quality assurance, UI designer, product designer, creative director, product manager, producer, and Director of Product.
+      </p>
+    </div>
+    <div class="div-text-r j-top">
+      <h4 class="heading-6">Education</h4>
+      <div class="div-block-6">
+        <div class="div-work-history mb-25">
+          <h5 class="heading-7">2022 - present</h5>
+          <h5 class="body-paragraph high-emphasis">R V College Of Engineering</h5>
+          <h5 id="Company-Location" class="body-paragraph low-emphasis">Bangalore,Karnataka</h5>
+          <h5 class="body-paragraph">Master Of Computer Applications</h5>
+        </div>
+        <div class="div-work-history mb-25">
+          <h5 class="heading-7">2019 - 2022</h5>
+          <h5 class="body-paragraph high-emphasis">Surana College</h5>
+          <h5 id="Company-Location" class="body-paragraph low-emphasis">Bangalore,Karnataka</h5>
+          <h5 class="body-paragraph">Bachelor of Computer Applications</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section-container my-skillsets w-container">
+    <div class="div-about-text my-skillsets">
+      <h4 class="heading-6">My  Skills</h4>
+    </div>
+    <div class="div-block-5">
+      <div data-delay="4000" data-animation="slide" class="card-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="5" data-duration="500" data-infinite="true" role="region" aria-label="carousel">
+        <div class="card-slider-mask w-slider-mask" id="w-slider-mask-0">
+          <!-- Skill Carousel 1 -->
+          <div class="skill-carousel w-slide" style="transform: translateX(0px); opacity: 1;" aria-label="1 of 6" role="group">
+            <div class="div-skillset">
+              <h1 class="h3 skill-heading">Languages</h1>
+              <div class="div-image-skills">
+                <!-- Image URLs -->
+                <img src="public/skill-logos/java-icon.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/javascript-icon.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/css-icon.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/mysql-logo.svg" width="35" height="35" alt="" class="image-skill">
+              </div>
+            </div>
+          </div>
+  
+          <!-- Skill Carousel 2 -->
+          <div class="skill-carousel w-slide" style="transform: translateX(0px); opacity: 1;" aria-label="2 of 6" role="group">
+            <div class="div-skillset">
+              <h1 class="h3 skill-heading">Frameworks</h1>
+              <div class="div-image-skills">
+                <!-- Image URLs -->
+                <img src="public/skill-logos/nodejs-logo.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/react-logo.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/express-js-logo.svg" width="35" height="35" alt="" class="image-skill">
+              </div>
+            </div>
+          </div>
+          
+                    <!-- Skill Carousel 3 -->
+          <div class="skill-carousel w-slide" style="transform: translateX(0px); opacity: 1;" aria-label="2 of 6" role="group">
+            <div class="div-skillset">
+              <h1 class="h3 skill-heading">Devops</h1>
+              <div class="div-image-skills">
+                <!-- Image URLs -->
+                <img src="public/skill-logos/git-icon.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/docker-logo.svg" width="35" height="35" alt="" class="image-skill">
+                <img src="public/skill-logos/aws-logo.svg" width="35" height="35" alt="" class="image-skill">
+              </div>
+            </div>
+          </div>
+  
+          <!-- Add more skill carousels as needed -->
+  
+        </div>
+        <!-- Add navigation arrows and dots if required -->
+      </div>
+    </div>
+  </div>
+  <div id="section-contact" class="content-section contact">
+    <div class="section-header w-container">
+        <div class="div-section-header">
+            <div class="section-header-column w-row">
+                <div class="column-svg-n-title w-col w-col-9">
+                    <h1 class="heading-5">🤙</h1>
+                    <h1 class="h2">Contact</h1>
+                </div>
+                <div class="column-view-more w-col w-col-3">
+                    <a href="#" target="_blank" class="link-block w-inline-block">
+                        <div class="section-header-link"></div>
+                    </a>
+                    <div class="section-header-link icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-homepage w-container">
+        <div class="div-text-l">
+              <a href="mailto:yashaskv.work@gmail.com" target="_blank" class="button w-button" data-ix="new-interaction" style="transition: color 0.4s ease 0s, background-color 0.4s ease 0s, box-shadow 0.4s ease 0s;">Contact Me</a>
+        </div>
+    </div>
+</div>
+
+      
+</div>
+<script>
+// Function to handle a specific slider
+function setupSlider(sliderContainer) {
+    let currentSlide = 0;
+    const slides = sliderContainer.querySelectorAll('.slide');
+    const totalSlides = slides.length;
+
+    function showSlide(index) {
+        if (index < 0) {
+            currentSlide = totalSlides - 1;
+        } else if (index >= totalSlides) {
+            currentSlide = 0;
+        } else {
+            currentSlide = index;
+        }
+
+        const newTransformValue = -100 * currentSlide + '%';
+        sliderContainer.querySelector('.slider').style.transform = 'translateX(' + newTransformValue + ')';
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+
+    sliderContainer.addEventListener('click', function (event) {
+        if (event.target.closest('.slide')) {
+            const clickedIndex = Array.from(slides).indexOf(event.target.closest('.slide'));
+            showSlide(clickedIndex);
+        }
+    });
+
+    // Automatically slide every 3 seconds
+    setInterval(nextSlide, 3000);
+}
+
+// Apply the setup function to each slider container
+const sliderContainers = document.querySelectorAll('.slider-container');
+sliderContainers.forEach(setupSlider);
+const sliderContainers2 = document.querySelectorAll('.slider-container2');
+sliderContainers2.forEach(setupSlider);
 
 
+</script>
 </body>
 </html>
