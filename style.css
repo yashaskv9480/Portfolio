@@ -2392,6 +2392,8 @@ a {
   display: flex;
 }
 
+
+
 .div-text-l.j-top {
   flex: 1;
   justify-content: flex-start;
@@ -2647,9 +2649,15 @@ a {
   height: auto;
 }
 
-.linkedin-logo{
+.github-logo.work{
   padding-left:5px;
   width: 35px;
+  height: auto;
+}
+
+.linkedin-logo{
+  padding-left:5px;
+  width: 40px;
   height: auto;
 }
   
@@ -2783,6 +2791,9 @@ a {
   margin-bottom: 10px;
 }
 
+.linkedin-logo.contact{
+}
+
 .content-section {
   justify-content: center;
   align-items: center;
@@ -2792,6 +2803,11 @@ a {
   line-height: 0;
   display: block;
 }
+
+.content-section.work {
+  margin-bottom: 25px;
+}
+
 
 .content-section.about {
   margin-bottom: 100px;
@@ -2931,6 +2947,20 @@ a {
   overflow: visible;
 }
 
+.contact-margin{
+  margin-bottom: 6%;
+}
+
+.heading-contact {
+  width: 100%;
+  color: #666;
+  margin: 10px
+  margin-top: ;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .heading-6.sm {
   margin-bottom: 10px;
   font-size: 14px;
@@ -3025,6 +3055,10 @@ a {
 .body-paragraph.card {
   margin-bottom: 0;
   overflow: visible;
+}
+
+.more-projects{
+  margin-top: 5%;
 }
 
 .body-paragraph.disclaimer-icon {
