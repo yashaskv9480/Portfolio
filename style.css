@@ -2878,8 +2878,9 @@ a {
   height: 100%;
   color: #666;
   padding-top: 20px;
-  font-size: 16px;
+  font-size: 18px;
   transition: opacity .2s;
+  
 }
 
 .navigation-item.w--current {
@@ -2927,9 +2928,9 @@ a {
 }
 
 .brand {
-  width: 60px;
-  height: 60px;
-  background-image: url("https://uploads-ssl.webflow.com/5ed7a75e8407992a7a52ad83/5eebf7b11b5a2e9030c6e853_logo-vb.svg");
+  width: 55px;
+  height: 55px;
+  background-image: url("public/home.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
