@@ -3790,11 +3790,11 @@ a {
 .div-image-r {
   width: 100%;
   height: auto;
-  max-width: 495px;
+  max-width: auto;
   flex: 1;
   justify-content: space-around;
   align-items: center;
-  margin-left: 2%;
+  margin-right: 4%;
   display: flex;
 }
 
@@ -5598,7 +5598,7 @@ a {
   }
 
   .div-image-r {
-    display: none;
+    margin-bottom: 4%;
   }
 
   .div-image-r.project {
